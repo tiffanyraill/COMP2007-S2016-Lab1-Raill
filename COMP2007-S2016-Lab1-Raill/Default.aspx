@@ -51,13 +51,13 @@
                     <div class="form-group">
                         <asp:Label ID="FirstNameLabel" Text="First Name" runat="server" />
                         <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true" CausesValidation="True" />
-                        <asp:RegularExpressionValidator ID="FirstNameRegularExpressionValidator" runat="server" ErrorMessage="Please enter 2-25 characters" CssClass="alert-danger" ControlToValidate="FirstNameTextBox" ValidationExpression="^[a-zA-Z'.\s]{2,40}$"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="FirstNameRegularExpressionValidator" runat="server" ErrorMessage="Please enter 2-40 characters" CssClass="alert-danger" ControlToValidate="FirstNameTextBox" ValidationExpression="^[a-zA-Z'.\s]{2,40}$"></asp:RegularExpressionValidator>
 
                     </div>
                     <div class="form-group">
                         <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" />
                         <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="True" />
-                        <asp:RegularExpressionValidator ID="LastNameRegularExpressionValidator" runat="server" ErrorMessage="Please enter 2-25 characters" CssClass="alert-danger" ControlToValidate="LastNameTextBox" ValidationExpression="^[a-zA-Z'.\s]{2,40}$"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="LastNameRegularExpressionValidator" runat="server" ErrorMessage="Please enter 2-40 characters" CssClass="alert-danger" ControlToValidate="LastNameTextBox" ValidationExpression="^[a-zA-Z'.\s]{2,40}$"></asp:RegularExpressionValidator>
                     </div>
                     <div class="form-group">
                         <asp:Label ID="AgeLabel" Text="Age" runat="server" />
