@@ -30,11 +30,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
-                    <li><a href="#"><i class="fa fa-th fa-lg"></i>Products</a></li>
-                    <li><a href="#"><i class="fa fa-gear fa-lg"></i>Services</a></li>
-                    <li><a href="#"><i class="fa fa-info fa-lg"></i>About Us</a></li>
-                    <li><a href="#"><i class="fa fa-phone fa-lg"></i>Contact Us</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li><a href="#"><i class="fa fa-th fa-lg"></i> Products</a></li>
+                    <li><a href="#"><i class="fa fa-gear fa-lg"></i> Services</a></li>
+                    <li><a href="#"><i class="fa fa-info fa-lg"></i> About Us</a></li>
+                    <li><a href="#"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
