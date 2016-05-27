@@ -40,6 +40,15 @@ namespace COMP2007_S2016_Lab1_Raill {
         protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
         
         /// <summary>
+        /// FirstNameRegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator FirstNameRegularExpressionValidator;
+        
+        /// <summary>
         /// LastNameLabel control.
         /// </summary>
         /// <remarks>
@@ -58,6 +67,15 @@ namespace COMP2007_S2016_Lab1_Raill {
         protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
         
         /// <summary>
+        /// LastNameRegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator LastNameRegularExpressionValidator;
+        
+        /// <summary>
         /// AgeLabel control.
         /// </summary>
         /// <remarks>
@@ -74,6 +92,15 @@ namespace COMP2007_S2016_Lab1_Raill {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox AgeTextBox;
+        
+        /// <summary>
+        /// AgeRangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator AgeRangeValidator;
         
         /// <summary>
         /// SubmitButton control.

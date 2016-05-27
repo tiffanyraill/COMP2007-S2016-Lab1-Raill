@@ -50,15 +50,19 @@
                 <form class="form" id="form1" runat="server">
                     <div class="form-group">
                         <asp:Label ID="FirstNameLabel" Text="First Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true" />
+                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true" CausesValidation="True" />
+                        <asp:RegularExpressionValidator ID="FirstNameRegularExpressionValidator" runat="server" ErrorMessage="Please enter 2-25 characters" CssClass="alert-danger" ControlToValidate="FirstNameTextBox" ValidationExpression="^[a-zA-Z'.\s]{2,40}$"></asp:RegularExpressionValidator>
+
                     </div>
                     <div class="form-group">
                         <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" />
+                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="True" />
+                        <asp:RegularExpressionValidator ID="LastNameRegularExpressionValidator" runat="server" ErrorMessage="Please enter 2-25 characters" CssClass="alert-danger" ControlToValidate="LastNameTextBox" ValidationExpression="^[a-zA-Z'.\s]{2,40}$"></asp:RegularExpressionValidator>
                     </div>
                     <div class="form-group">
                         <asp:Label ID="AgeLabel" Text="Age" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" required="true" />
+                        <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" required="true" CausesValidation="True" />
+                        <asp:RangeValidator CssClass="alert-danger" ID="AgeRangeValidator" runat="server" ErrorMessage="Please enter a valid age between 1-130" MaximumValue="130" MinimumValue="1" Type="Integer" ControlToValidate="AgeTextBox"></asp:RangeValidator>
                     </div>
                     <asp:Button CssClass="btn btn-primary" ID="SubmitButton" Text="Submit" runat="server" OnClick="SubmitButton_Click" />
                     <br />
